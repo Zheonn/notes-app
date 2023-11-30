@@ -1,8 +1,8 @@
-# Documentação do Projeto - Notes
+#  Projeto - NotesApp
 
 ## Introdução
 
-Bem-vindo à documentação do projeto "Notes". Este projeto é uma aplicação de gerenciamento de anotações, desenvolvido usando o framework Vue.js para o frontend, Node.js (com Express) para o backend, e MongoDB para persistência de dados.
+Bem-vindo à documentação do projeto "NotesApp". Este projeto é uma aplicação de gerenciamento de anotações, desenvolvido usando o framework Vue.js para o frontend, Node.js (com Express) para o backend, e MongoDB para persistência de dados.
 
 ## Estrutura do Projeto
 
@@ -18,16 +18,16 @@ O frontend é construído com o framework Vue.js, uma biblioteca JavaScript prog
    - Exibe o cabeçalho da aplicação.
    - Contém botões para carregar e persistir dados.
 
-2. **Nota de Resumo (`NoteResume.vue`):**
-   - Representa uma nota na lista de notas.
-   - Exibe a descrição e o lembrete da nota.
-   - Fornece botões para editar e excluir a nota.
+2. **Resumo das anotações (`NoteResume.vue`):**
+   - Representa uma anotação na lista de anotações.
+   - Exibe a descrição e o lembrete da anotação.
+   - Fornece botões para editar e excluir a anotação.
 
-3. **Menu de Notas (`NotesMenu.vue`):**
-   - Exibe a lista de notas usando o componente `NoteResume`.
+3. **Menu de anotações (`NotesMenu.vue`):**
+   - Exibe a lista de anotações usando o componente `NoteResume`.
 
-4. **Criação/Edição de Nota (`NoteCreation.vue`):**
-   - Permite ao usuário criar uma nova nota ou editar uma nota existente.
+4. **Criação/Edição de Anotações (`NoteCreation.vue`):**
+   - Permite ao usuário criar uma nova anotação ou editar uma anotação existente.
    - Campos para descrição, potencial do negócio, categoria e lembrete.
    - Botões para salvar e cancelar.
 
@@ -148,8 +148,8 @@ npm run serve
 
 O frontend estará disponível em `http://localhost:8080`.
 
-Acesse a aplicação em seu navegador para começar a gerenciar suas notas.
+Acesse a aplicação em seu navegador para começar a gerenciar suas anotações.
 
 ## Conclusão
 
-Este projeto "Notes" oferece uma solução simples e eficaz para o gerenciamento de notas. A documentação fornece uma visão geral da estrutura do projeto, funcionalidades principais e tutoriais para execução. Se surgirem dúvidas ou problemas, sinta-se à vontade para buscar ajuda na comunidade ou entrar em contato com os desenvolvedores. Aproveite o uso da aplicação "Notes" para organizar suas tarefas e anotações de maneira eficiente.
+Este projeto "NotesApp" oferece uma solução simples e eficaz para o gerenciamento de anotações. A documentação fornece uma visão geral da estrutura do projeto, funcionalidades principais e tutoriais para execução.
